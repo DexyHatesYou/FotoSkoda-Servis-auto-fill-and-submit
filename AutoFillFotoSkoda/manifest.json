@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AutoFill Zakazka",
+  "version": "1.0",
+  "description": "Autofills zakazka ID on opravy.fotoskoda.cz and submit",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://opravy.fotoskoda.cz/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://opravy.fotoskoda.cz/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
