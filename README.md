@@ -1,4 +1,4 @@
-# FotoSkoda-Servis-auto-fill-and-submit
+# FotoSkoda Servis auto-fill-and-submit
 This extension for chromium based browsers automatically fills the Zakazka ID input field on https://opravy.fotoskoda.cz and submits the form for you.
 
 You set your desired Zakazka ID in the extension popup, which is saved in browser storage. Every time you visit the site, the extension fills the input with your saved ID and triggers the form submission automatically.
